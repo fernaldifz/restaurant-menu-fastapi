@@ -1,0 +1,40 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "nasi"
+        },
+        {
+            "id": 3,
+            "name": "buah"
+        },
+        {
+            "id": 4,
+            "name": "keju"
+        },
+        {
+            "id": 5,
+            "name": "sayur"
+        },
+        {
+            "id": 6,
+            "name": "lauk"
+        }
+    ],
+    "users": {
+        "asdf": {
+            "username": "asdf",
+            "email": "asdf@g.com",
+            "full_name": "Asdf Asdf",
+            "hashed_password": "$2b$12$h5phKq.x8xZtuB4YKFQqNuQaDcHamGAGmQ7c70V24GKbO4o5TFRSS",
+            "disabled": false
+        },
+        "aaaa": {
+            "username": "aaaa",
+            "email": "aaaa@g.com",
+            "full_name": "Aaaa Bbbb",
+            "hashed_password": "$2b$12$/hia3CvfYkmz1yj.jE8zMefbqvHmhgECEeSjhUNBXIOth4h0mXAAe",
+            "disabled": false
+        }
+    }
+}
