@@ -40,7 +40,7 @@ app = FastAPI()
 
 @app.get('/', tags=["root"])
 async def read_root():
-    return {"Message": "Welcome! Visit restaurant-menu-fastapi-python.herokuapp.com/docs to try API"}
+    return {"Message": "Welcome! add '/docs' at the end of URL to open Swagger UI"}
 
 @app.get('/menu', tags=["menu"])
 async def read_all_menu(token: str = Depends(oauth2_scheme)):
